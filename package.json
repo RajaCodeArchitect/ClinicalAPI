@@ -1,0 +1,31 @@
+{
+  "name": "clinicalsapi",
+  "version": "1.0.0",
+  "description": "clinicals api",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon --exec babel-node src/server.js",
+    "dev":"nodemon --exec babel-node src/server.js",
+    "test": "mocha --timeout 1000"
+  },
+  "keywords": [
+    "mongo",
+    "mongoose",
+    "node",
+    "babel"
+  ],
+  "author": "rajashekhar",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/core": "^7.16.0",
+    "@babel/node": "^7.16.0",
+    "@babel/preset-env": "^7.16.4",
+    "body-parser": "^1.19.0",
+    "chai": "^4.3.4",
+    "chai-http": "^4.3.0",
+    "express": "^4.17.1",
+    "mocha": "^9.1.3",
+    "mongoose": "^6.0.13",
+    "nodemon": "^2.0.15"
+  }
+}

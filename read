@@ -1,0 +1,11 @@
+npm init
+npm i express mongoose body-parser nodemon
+npm i @babel/core @babel/node @babel/preset-env
+npm i mocha chai chai-http
+
+1. config .babelrc
+2. create database connection
+  src folder > config 
+  db.js
+  properties.js
+  server.js
