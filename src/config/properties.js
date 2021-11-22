@@ -1,4 +1,4 @@
 module.exports ={
     PORT:8000,
-    DB:'mongodb://localhost/cliniclas'
+    DB:'mongodb://mongo:27017/cliniclas'
 }
